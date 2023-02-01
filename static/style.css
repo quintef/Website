@@ -32,8 +32,8 @@ body {
     text-decoration: none;
     color: white;
     background-color: transparent;
-    width:200px;
-    height:80px;
+    width:300px;
+    height:136px;
     display: inline-block;
     position: fixed;
     right: 20vw;
@@ -43,6 +43,7 @@ body {
     border-radius: 15px;
     font-weight: bold;
     font-size: 24px;
+    transform: perspective(620px) rotateY(-35deg);
   }
 .aboutMe{
     text-align: center;
@@ -50,12 +51,13 @@ body {
     text-decoration: none;
     color: white;
     background-color: transparent;
-    width:200px;
+    width:300px;
     height:50px;
     display: inline-block;
     position: fixed;
     right: 100px;
     border:2px solid black;
+    
 }
 
 .linkedIn{
@@ -64,8 +66,8 @@ body {
     text-decoration: none;
     color: white;
     background-color: transparent;
-    width:200px;
-    height:80px;
+    width:300px;
+    height:136px;
     display: inline-block;
     position: fixed;
     top:16vh;
@@ -77,6 +79,8 @@ body {
     border-radius: 15px;
     font-weight: bold;
     font-size: 24px;
+
+    transform: perspective(620px) rotateY(35deg);
 }
   .outerest-ring {
     position: fixed;
@@ -266,10 +270,12 @@ body {
   .linkedIn:hover {
     color: black; /* change the text color to black when hovered */
     border:7px solid black;
+    
   }
   .github-button:hover {
     color: black; /* change the text color to black when hovered */
     border:7px solid black;
+    
   }
 
   .github-button:hover::before {
@@ -282,6 +288,7 @@ body {
     border-radius: 7px; /* add some roundness to the corners */
     background-color: rgba(255, 255, 0, 0.4); /* set the background color to yellow */
     animation: pulse 1s ease-in-out infinite; /* add a pulse animation */
+    
     
   }
   .linkedIn:hover::before {
@@ -315,7 +322,7 @@ body {
     line-height: 50px;
     text-decoration: none;
     color: white;
-    transform: rotate(15deg) translate(50px,50px) scale(1.1)
+    
   }
 
 
@@ -333,4 +340,21 @@ body {
       transform: scale(1);
       box-shadow: 0 0 0 0px rgba(12, 12, 0, 0.7);
     }
+  }
+
+  .joker{
+    position:absolute;
+    clear:both;
+    height: 1000px;
+    width: 1500px;  
+    bottom: 0;
+  }
+    
+  .joker img{
+    margin: 0 auto;
+    padding: 0px;
+    height: 100%;
+    width: 100%;
+    clear:both;
+    
   }
